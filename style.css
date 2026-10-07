@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(206, 8%, 36%);
+}
+
+h1 {
+    color: #0066cc;
+}
+
+p {
+    color: darkred;
+    font-size: 18px;
+    line-height: 1.5;
+}
