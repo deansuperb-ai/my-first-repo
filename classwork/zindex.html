@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Z-Index Example</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            height: 400px;
+            margin: 50px auto;
+        }
+
+        img {
+            position: absolute;
+            width: 100%;
+            top: 80px;
+            left: 0;
+            z-index: 2;
+        }
+
+        .text1 {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            color: red;
+            font-size: 40px;
+            z-index: 1;
+        }
+
+        .text2 {
+            position: absolute;
+            top: 200px;
+            left: 80px;
+            color: blue;
+            font-size: 35px;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <img src="image.png" alt="Limited Edition">
+
+        <h1 class="text2">LIMITED EDITION</h1>
+
+    </div>
+
+</body>
+
+</html>
