@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+  flex-direction: column-reverse;
+  background-color: DodgerBlue;
+}
+
+
+.container div{
+    background-color: #fffc60;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+}
