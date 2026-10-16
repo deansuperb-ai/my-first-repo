@@ -1,16 +1,20 @@
-.container{
+.container {
     display: flex;
-  flex-direction: row-reverse;
-  background-color: DodgerBlue;
-  flex-wrap: wrap;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    height: 750px;
+
+    
 }
 
 
-.container div{
+.container div {
     background-color: #fffc60;
-  width: 100px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;  
-  font-size: 30px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 20;
 }
